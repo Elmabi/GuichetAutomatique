@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Guichet_Automatique</string>
+    <string name="bonjour">Bonjour</string>
+    <string name="logout">LOGOUT</string>
+    <string name="zero">0</string>
+    <string name="etat_des_comptes">ÉTAT DES COMPTES</string>
+    <string name="soumettre">SOUMETTRE</string>
+    <string name="nom_client">Nom du client : </string>
+    <string name="prenom_client">Prenom du client : </string>
+    <string name="numero_compte">Numero de compte : </string>
+    <string name="solde_compte">Solde du compte : </string>
+    <string name="soldeEpargne">Solde du compte : </string>
+    <string name="solde_compte_avant">Solde du compte avant intérêt : </string>
+    <string name="solde_compte_apres">Solde du compte apres intérêt : </string>
+
+</resources>

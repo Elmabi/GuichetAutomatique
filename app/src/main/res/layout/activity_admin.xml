@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity"
+    android:background="@color/rice_flower">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:background="#2EC4B6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCES ADMINISTRATEUR"
+            android:gravity="left"
+            android:textColor="#011638"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+        <Button
+            android:id="@+id/btnInteret"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/turquoise"
+            android:ems="14"
+            android:onClick="onClickPaiementInteret"
+            android:text="PAIEMENT DES INTÉRETS"
+            android:textAlignment="center"
+            android:textColor="@color/tarawera"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCompteCheque"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/turquoise"
+            android:ems="14"
+            android:onClick="onClickCheque"
+            android:text="COMPTES CHÉQUES"
+            android:textAlignment="center"
+            android:textColor="@color/tarawera"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnCompteEpargne"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/turquoise"
+            android:ems="14"
+            android:onClick="onClickEpargne"
+            android:text="COMPTES ÉPARGNES"
+            android:textAlignment="center"
+            android:textColor="@color/tarawera"
+            android:textStyle="bold" /> />
+
+        <Button
+            android:id="@+id/btnListeClient"
+            style="@style/Widget.MaterialComponents.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/turquoise"
+            android:ems="14"
+            android:onClick="onClickClient"
+            android:text="LISTE DES CLIENTS"
+            android:textAlignment="center"
+            android:textColor="@color/tarawera"
+            android:textStyle="bold" /> />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

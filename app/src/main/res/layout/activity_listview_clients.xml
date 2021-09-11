@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/rice_flower"
+    android:orientation="vertical"
+    tools:context=".ClientsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTE DES CLIENTS"
+        android:padding="15dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:textColor="#011638"
+        android:textSize="30sp"
+        android:background="@color/turquoise"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtvNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"
+        android:layout_marginBottom="10dp"
+        android:text="Nombre de clients : "
+        android:textColor="@color/tarawera"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/lvClients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/rice_flower" />
+
+</LinearLayout>
